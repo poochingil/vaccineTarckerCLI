@@ -1,0 +1,22 @@
+{
+  "name": "cowin",
+  "version": "1.0.0",
+  "description": "Covid-19 vaccination",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siddhant",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "inquirer": "^8.1.2",
+    "node-notifier": "^10.0.0",
+    "tty-table": "^4.1.5"
+  },
+  "bin":{
+    "cowin":"./bin/index.js"
+  }
+}
